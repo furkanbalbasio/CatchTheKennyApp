@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                     image.visibility = View.INVISIBLE
                 }
                 val alert = AlertDialog.Builder(this@MainActivity)
-                alert.setTitle("Time's UP!")
+                alert.setTitle("Time's UP")
                 alert.setMessage("Restart The Game?")
                 alert.setPositiveButton("Yes")
                 { dialog, which ->
